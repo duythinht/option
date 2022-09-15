@@ -26,9 +26,9 @@ if another.IsNone() {
 // switch type
 
 switch s := five.(type) {
-case Some[int]:
+case SomeOf[int]:
     fmt.Printf("Some is `%d`\n", five.Unwrap())
-case None[int]:
+case NoneOf[int]:
     fmt.Printf("None of int\n")
 case default:
     fmt.Printf("unknown type")
