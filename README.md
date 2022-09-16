@@ -1,6 +1,6 @@
 # Proof of Concept generic Option type in go
 
-`disclaimer`: this is just a PoC, don't use it on production, I does not recommend to use none idomatic package.
+`disclaimer`: this is just a PoC, don't use it on production, I do not recommend to use none idomatic package.
 
 
 ### How to
