@@ -30,7 +30,7 @@ case SomeOf[int]:
     fmt.Printf("Some is `%d`\n", five.Unwrap())
 case NoneOf[int]:
     fmt.Printf("None of int\n")
-case default:
+default:
     fmt.Printf("unknown type")
 }
 
